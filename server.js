@@ -7,7 +7,7 @@ const serverless = require("serverless-http");
 require("dotenv").config();
 
 const app = express();
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || "AIzaSyBfSpj55wGfrhcFI8LvOluOyr6-XUyvCI0";
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || "tu_api_key";
 
 // Middlewares
 app.use(cors({ origin: "*" }));
