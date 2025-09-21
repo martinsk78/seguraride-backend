@@ -12,7 +12,7 @@ app.use(express.json());
 // =======================
 // 2. Variables de entorno
 // =======================
-const GOOGLE_API_KEY = AIzaSyBfSpj55wGfrhcFI8LvOluOyr6-XUyvCI0;
+const GOOGLE_API_KEY = "AIzaSyBfSpj55wGfrhcFI8LvOluOyr6-XUyvCI0";
 
 // =======================
 // 3. Endpoint: Trips Feedback
